@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  adk-web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./prompt_validation_agent:/app/prompt_validation_agent
+    command: adk web --host 0.0.0.0 --port 8000
