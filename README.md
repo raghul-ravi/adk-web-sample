@@ -10,7 +10,7 @@ adk-sampler/
 │   ├── __init__.py             # Package initialization
 │   ├── agent.py                # Agent definition (root_agent)
 │   ├── example.prompt          # Example prompt file
-│   └── sample_closing_documet.pdf  # Sample document
+│   └── sample_closing_document.pdf  # Sample document
 ├── requirements.txt            # Python dependencies
 ├── Dockerfile                  # Docker image configuration
 └── docker-compose.yml          # Docker compose configuration
